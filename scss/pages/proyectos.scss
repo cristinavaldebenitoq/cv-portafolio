@@ -1,0 +1,29 @@
+.projects{
+
+  text-align:center;
+
+  .projects-grid{
+
+    @include grid-3;
+    margin-top:40px;
+
+  }
+
+  @include mobile{
+    .projects-grid{
+      grid-template-columns:1fr;
+    }
+  }
+
+}
+
+.contact{
+
+  text-align:center;
+
+  ul{
+    list-style:none;
+    margin-top:20px;
+  }
+
+}

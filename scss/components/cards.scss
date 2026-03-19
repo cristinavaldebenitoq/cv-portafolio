@@ -1,0 +1,18 @@
+.card,
+.skill-card,
+.project-card{
+
+  background:white;
+  padding:25px;
+
+  border-radius:12px;
+
+  box-shadow:$shadow-soft;
+
+  transition:all .3s ease;
+
+  &:hover{
+    transform:translateY(-6px);
+  }
+
+}

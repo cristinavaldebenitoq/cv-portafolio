@@ -1,0 +1,28 @@
+.experience{
+
+  max-width:900px;
+  margin:auto;
+
+  .job{
+
+    margin-top:40px;
+    padding:25px;
+
+    background:white;
+    border-radius:12px;
+
+    box-shadow:$shadow-soft;
+
+    .date{
+      color:$primary-color;
+      font-size:0.9rem;
+      margin-bottom:10px;
+    }
+
+    ul{
+      padding-left:18px;
+    }
+
+  }
+
+}
